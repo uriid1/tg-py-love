@@ -28,6 +28,10 @@ pip install telethon
 clear
 
 # Sucsess
-mkdir tg-py-love/users
-cp tg-py-love/love ~/love
+cd tg-py-love
+mkdir users
+chmod +X love
+cp love ~/love
+cd ~/
 echo -e "${c_green}[Установка успешно завершена!] ${c_def}\n"
+echo -e "${c_green}[Выполните ./love для запуска] ${c_def}\n"
