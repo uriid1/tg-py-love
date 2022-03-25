@@ -34,5 +34,5 @@ chmod +777 love
 cp love ~/love
 cd ~/
 chmod +777 love
-echo "${c_green}[Установка успешно завершена!] ${c_def}"
-echo "${c_green}[Выполните ./love для запуска] ${c_def}"
+echo "${c_green}[Завершено]${c_def} Установка успешна завершена!"
+echo "${c_green}[Запуск]${c_def} Выполните ./love api_id api_hash"
