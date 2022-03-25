@@ -20,8 +20,10 @@ api_hash это и буквы и цифры типа 123sdf123sdf234...
 4) Устанавливаем приложение Termux.
 Оно под этим постом ниже.
 
-5) Открываем Termux и вставляем в него следующую команду (кликабельно для копирования):
+5) Открываем Termux и вставляем в него следующую команду:
+'''bash
 pkg install -y git && pkg install -y python && git clone https://github.com/uriid1/tg-py-love && cd tg-py-love && chmod +777 install.sh && sh install.sh && cd ..
+'''
 
 После того, как вставили команду жмём Enter (новая строка).
 Пойдет установка скрипта. 
