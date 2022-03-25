@@ -10,4 +10,4 @@
 # Run
 clear
 cd tg-py-love
-python3 main.py
+python3 main.py $1 $2
