@@ -1,3 +1,10 @@
+####--------------------------------####
+#--# Author:   by uriid1            #--#
+#--# license:  GNU GPL              #--#
+#--# telegram: @foxdacam            #--#
+#--# Mail:     appdurov@gmail.com   #--#
+####--------------------------------####
+    
 ####################
 ## Import libs
 import sys
