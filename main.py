@@ -28,7 +28,7 @@ def colored(color, text):
 ###########################
 ## Settings
 api_id   = int(sys.argv[1])
-api_hash = str(sys.argv[1])
+api_hash = str(sys.argv[2])
 
 ## Connect
 client = TelegramClient('users/current_user', api_id, api_hash)
