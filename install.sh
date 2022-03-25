@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/usr/bin/env bash
 
 #//******************************//#
 #//# Author: by uriid1          #//#
@@ -30,8 +30,9 @@ clear
 # Sucsess
 cd tg-py-love
 mkdir users
-chmod +X love
+chmod +777 love
 cp love ~/love
 cd ~/
+chmod +777 love
 echo "${c_green}[Установка успешно завершена!] ${c_def}\n"
 echo "${c_green}[Выполните ./love для запуска] ${c_def}\n"
