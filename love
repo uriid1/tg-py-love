@@ -1,0 +1,12 @@
+# !/bin/bash
+
+#//******************************//#
+#//# Author: by uriid1          #//#
+#//# license: GNU GPL           #//#
+#//# telegram: @rp_party        #//#
+#//# Mail: appdurov@gmail.com   #//#
+####****************************####
+
+# Run
+cd tg-py-love
+python3 main.py
