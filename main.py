@@ -1,5 +1,6 @@
 ####################
 ## Import libs
+import sys
 import asyncio
 import time
 
@@ -26,8 +27,8 @@ def colored(color, text):
 
 ###########################
 ## Settings
-api_id   = 6
-api_hash = 'eb06d4abfb49dc3eeb1aeb98ae0f581e'
+api_id   = int(sys.argv[1])
+api_hash = str(sys.argv[1])
 
 ## Connect
 client = TelegramClient('users/current_user', api_id, api_hash)
@@ -50,7 +51,7 @@ print(
 
 
 ########################
-## Check scropt work
+## Check script work
 ## CMD: ping
 ########################
 @client.on(events.NewMessage(outgoing=True, pattern='ping'))
