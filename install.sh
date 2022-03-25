@@ -18,12 +18,12 @@ readonly c_def='\033[0m'
 
 
 # install python
-echo "${c_green}[Установка] ${c_def} Python 3 \n"
+echo "${c_green}[Установка] ${c_def} Python 3"
 pkg install -y python
 clear
 
 # install Libs for python
-echo "${c_green}[Установка] ${c_def} Библиотка telethon для Python \n"
+echo "${c_green}[Установка] ${c_def} Библиотка telethon для Python"
 pip install telethon
 clear
 
@@ -34,5 +34,5 @@ chmod +777 love
 cp love ~/love
 cd ~/
 chmod +777 love
-echo "${c_green}[Установка успешно завершена!] ${c_def}\n"
-echo "${c_green}[Выполните ./love для запуска] ${c_def}\n"
+echo "${c_green}[Установка успешно завершена!] ${c_def}"
+echo "${c_green}[Выполните ./love для запуска] ${c_def}"
