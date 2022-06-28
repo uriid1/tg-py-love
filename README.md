@@ -21,7 +21,18 @@
 
 5) Открываем Termux и вставляем в него следующую команду:
 ```bash
-pkg install -y git && pkg install -y python && git clone https://github.com/uriid1/tg-py-love && cd tg-py-love && chmod +777 install.sh && sh install.sh && cd ..
+pkg update -y && pkg install -y git && pkg install -y python3 && git clone https://github.com/uriid1/tg-py-love && cd tg-py-love && chmod +777 install.sh && sh install.sh && cd ..
+```
+Коротко объясню команды:
+```bash
+pkg update -y # Проверка наличия обновлений пакетов и их установка
+pkg install -y git # Установка системы контроля версий git
+pkg install -y python3 # Установка интерпретатора ЯП python 3
+git clone https://github.com/uriid1/tg-py-love # После установки git, загружем репозиторий со скриптом
+cd tg-py-love # Переходим в директорию со скриптом
+chmod +777 install.sh # Даем все права файлу в т.ч на исполнение
+sh install.sh # Запуск скрипта
+cd .. # Выход в из директории tg-py-love
 ```
 
 После того, как вставили команду жмём Enter (новая строка).  <br/>

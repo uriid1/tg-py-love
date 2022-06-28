@@ -1,7 +1,7 @@
 ####--------------------------------####
 #--# Author:   by uriid1            #--#
-#--# license:  GNU GPL              #--#
-#--# telegram: @foxdacam            #--#
+#--# License:  GNU GPL              #--#
+#--# Telegram: @rp_party            #--#
 #--# Mail:     appdurov@gmail.com   #--#
 ####--------------------------------####
     
