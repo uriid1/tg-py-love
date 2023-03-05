@@ -149,6 +149,8 @@ async def handler(event):
         message   = event.message
         chat      = event.chat_id
 
+        while(true):
+
         # play anim
         frame_index = 0
         while(frame_index != len(heart_emoji)):
